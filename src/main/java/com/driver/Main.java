@@ -1,4 +1,3 @@
-package com.driver;
 class A{
   public void meth()
   {
@@ -12,7 +11,12 @@ class B extends A{
   }
 }
 public class Main {
-  A obj=new B();
-  obj.meth();
+    
+    public static void main(String [] args)
+    {
+        A obj=new B();
+        obj.meth();
+    }
+  
   
 }
